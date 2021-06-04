@@ -127,7 +127,8 @@ def commands() -> '1)show 2)search 3)save 4)update 5)delete':
         elif usr_inp == 5:
             delete()
         else:
-            print('\nwrong input, try again:', end='')
+            print('\nwrong input, try again')
+
 
 
 print("""
